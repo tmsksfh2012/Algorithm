@@ -1,0 +1,7 @@
+﻿  소스.cpp
+C:\Users\TAEKHYUN\Desktop\백준\백준 1931\백준 1931\소스.cpp(37,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\TAEKHYUN\Desktop\백준\백준 1931\백준 1931\소스.cpp(25,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  'scanf' 선언을 참조하십시오.
+C:\Users\TAEKHYUN\Desktop\백준\백준 1931\백준 1931\소스.cpp(29,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  'scanf' 선언을 참조하십시오.
+  백준 1931.vcxproj -> C:\Users\TAEKHYUN\Desktop\백준\백준 1931\Debug\백준 1931.exe

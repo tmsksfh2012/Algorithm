@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\TAEKHYUN\source\repos\백준 5582\백준 5582\소스.cpp(13,19): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\TAEKHYUN\source\repos\백준 5582\백준 5582\소스.cpp(14,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  백준 5582.vcxproj -> C:\Users\TAEKHYUN\source\repos\백준 5582\Debug\백준 5582.exe

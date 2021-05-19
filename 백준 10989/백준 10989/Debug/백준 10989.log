@@ -1,0 +1,7 @@
+﻿  소스.cpp
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(17,23): error C2143:  구문 오류: ';'이(가) ':' 앞에 없습니다.
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(17,23): error C2143:  구문 오류: ')'이(가) ':' 앞에 없습니다.
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(17,23): error C2059:  구문 오류: ':'
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(17,28): error C2059:  구문 오류: ')'
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(17,30): error C2143:  구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\TAEKHYUN\Desktop\백준\백준 10989\백준 10989\소스.cpp(18,15): error C2065:  'j': 선언되지 않은 식별자입니다.

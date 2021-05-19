@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\TAEKHYUN\Desktop\백준\백준 10610\백준 10610\소스.cpp(18,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\TAEKHYUN\Desktop\백준\백준 10610\백준 10610\소스.cpp(29,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  백준 10610.vcxproj -> C:\Users\TAEKHYUN\Desktop\백준\백준 10610\Debug\백준 10610.exe

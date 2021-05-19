@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\TAEKHYUN\Desktop\백준\백준 2292\백준 2292\소스.cpp(5,9): warning C4101:  'res' :참조되지 않은 지역 변수입니다.
+  백준 2292.vcxproj -> C:\Users\TAEKHYUN\Desktop\백준\백준 2292\Debug\백준 2292.exe
