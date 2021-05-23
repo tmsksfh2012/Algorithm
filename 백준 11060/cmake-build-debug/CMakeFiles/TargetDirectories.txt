@@ -1,3 +1,0 @@
-C:/Users/TAEKHYUN/CLionProjects/백준 11060/cmake-build-debug/CMakeFiles/_11060.dir
-C:/Users/TAEKHYUN/CLionProjects/백준 11060/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TAEKHYUN/CLionProjects/백준 11060/cmake-build-debug/CMakeFiles/rebuild_cache.dir
