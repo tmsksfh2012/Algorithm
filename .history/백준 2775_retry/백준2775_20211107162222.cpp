@@ -8,7 +8,7 @@ void __init() {
 
 int getNum(int k, int n) {
   if(k == 0) return n;
-  if(n == 1) return 1;
+  if(n == 0) return 1;
 
   return getNum(k - 1, n) + getNum(k, n - 1);
 }
