@@ -13,12 +13,18 @@ int main() {
 
 	cin >> N;
 
-	ans = N;
-	
-	while (N % 10) {
-		ans += N % 10;
-		N /= 10;
+	int tmp{};
+	for (int i = 1; i < N; i++) {
+		tmp = i;
+		ans = i;
+		while (tmp % 10) {
+			ans += tmp % 10;
+			tmp /= 10;
+		}
+		if (ans == N) {
+			cout << i;
+			return 0;
+		}
 	}
-
-	cout << ans;
+	cout << 0;
 }
