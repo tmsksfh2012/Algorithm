@@ -28,6 +28,8 @@ int main() {
 				s.emplace(c);
 			}
 			else {
+				if (str[i + 1] == 0)
+					break;
 				char now = c;
 				char tmp = str[++i];
 
