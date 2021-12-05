@@ -16,6 +16,9 @@ int main() {
 	if (N % 2 > 0)
 		cout << "Either";
 	else {
-		cout << "Odd";
+		if ((N / 2) % 2 > 0)
+			cout << "Odd";
+		else
+			cout << "Even";
 	}
 }

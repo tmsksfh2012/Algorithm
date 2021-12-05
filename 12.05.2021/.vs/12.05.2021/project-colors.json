@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "72beb7b9-8c92-4011-a771-2f2860d56eaf": {
+      "ProjectGuid": "72beb7b9-8c92-4011-a771-2f2860d56eaf",
+      "DisplayName": "2503 숫자 야구",
+      "ColorIndex": 0
+    },
+    "f54df942-5688-4b2a-ba59-063d567a0311": {
+      "ProjectGuid": "f54df942-5688-4b2a-ba59-063d567a0311",
+      "DisplayName": "10974 모든 순열",
+      "ColorIndex": 1
+    },
+    "e24dda2a-6712-46c5-9337-963cefc2fb0a": {
+      "ProjectGuid": "e24dda2a-6712-46c5-9337-963cefc2fb0a",
+      "DisplayName": "21185 Some Sum",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
