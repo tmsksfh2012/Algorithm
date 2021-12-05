@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2503 숫자 야구", "2503 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10974 모든 순열", "10974 모든 순열\10974 모든 순열.vcxproj", "{F54DF942-5688-4B2A-BA59-063D567A0311}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21185 Some Sum", "21185 Some Sum\21185 Some Sum.vcxproj", "{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F54DF942-5688-4B2A-BA59-063D567A0311}.Release|x64.Build.0 = Release|x64
 		{F54DF942-5688-4B2A-BA59-063D567A0311}.Release|x86.ActiveCfg = Release|Win32
 		{F54DF942-5688-4B2A-BA59-063D567A0311}.Release|x86.Build.0 = Release|Win32
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Debug|x64.ActiveCfg = Debug|x64
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Debug|x64.Build.0 = Debug|x64
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Debug|x86.Build.0 = Debug|Win32
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Release|x64.ActiveCfg = Release|x64
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Release|x64.Build.0 = Release|x64
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Release|x86.ActiveCfg = Release|Win32
+		{E24DDA2A-6712-46C5-9337-963CEFC2FB0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
