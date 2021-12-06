@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7c1ea3b8-4b05-468b-9e88-cf501a1daf27": {
+      "ProjectGuid": "7c1ea3b8-4b05-468b-9e88-cf501a1daf27",
+      "DisplayName": "2501 약수 구하기",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
