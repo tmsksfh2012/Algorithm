@@ -5,7 +5,37 @@
       "ProjectGuid": "7c1ea3b8-4b05-468b-9e88-cf501a1daf27",
       "DisplayName": "2501 약수 구하기",
       "ColorIndex": 0
+    },
+    "e3dee5e9-15ba-4c82-ad08-3dcc53b381ee": {
+      "ProjectGuid": "e3dee5e9-15ba-4c82-ad08-3dcc53b381ee",
+      "DisplayName": "10971 외판원 순회 2",
+      "ColorIndex": 1
+    },
+    "c13a1ab6-3efa-4f46-b810-6e25cfb24f04": {
+      "ProjectGuid": "c13a1ab6-3efa-4f46-b810-6e25cfb24f04",
+      "DisplayName": "1057 토너먼트",
+      "ColorIndex": 2
+    },
+    "3355d08d-4df9-41d6-8f73-54547fff85a4": {
+      "ProjectGuid": "3355d08d-4df9-41d6-8f73-54547fff85a4",
+      "DisplayName": "1120 문자열",
+      "ColorIndex": 3
+    },
+    "af68573f-e217-4a72-8bc2-15c1ddef1270": {
+      "ProjectGuid": "af68573f-e217-4a72-8bc2-15c1ddef1270",
+      "DisplayName": "2851 슈퍼 마리오",
+      "ColorIndex": 4
+    },
+    "432ce27d-7cb5-42e9-a216-717dca8ba3b3": {
+      "ProjectGuid": "432ce27d-7cb5-42e9-a216-717dca8ba3b3",
+      "DisplayName": "1051 숫자 정사각형",
+      "ColorIndex": 5
+    },
+    "73c19b2c-7254-42f0-a73b-d044da070c45": {
+      "ProjectGuid": "73c19b2c-7254-42f0-a73b-d044da070c45",
+      "DisplayName": "1837 암호제작",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 7
 }
