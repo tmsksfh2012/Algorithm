@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "96088729-11de-4d95-aa21-41cbcfdd1d08": {
+      "ProjectGuid": "96088729-11de-4d95-aa21-41cbcfdd1d08",
+      "DisplayName": "1012 유기농 배추",
+      "ColorIndex": 0
+    },
+    "5e0a1108-e902-437d-9a5a-ace933fe3848": {
+      "ProjectGuid": "5e0a1108-e902-437d-9a5a-ace933fe3848",
+      "DisplayName": "2615 오목",
+      "ColorIndex": 1
+    },
+    "00536595-3c80-41c8-b04d-e7bc76ca2c60": {
+      "ProjectGuid": "00536595-3c80-41c8-b04d-e7bc76ca2c60",
+      "DisplayName": "2606 바이러스",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
