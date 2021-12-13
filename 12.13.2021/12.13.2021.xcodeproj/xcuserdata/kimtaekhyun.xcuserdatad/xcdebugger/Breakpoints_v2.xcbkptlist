@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "90A76B8C-BD49-49D1-96D4-DC82E761C1DA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D845EB8C-3974-412F-9E9E-89571C0A4CD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "2206 &#x1107;&#x1167;&#x11a8; &#x1107;&#x116e;&#x1109;&#x116e;&#x1100;&#x1169; &#x110b;&#x1175;&#x1103;&#x1169;&#x11bc;&#x1112;&#x1161;&#x1100;&#x1175;/2206 &#x1107;&#x1167;&#x11a8; &#x1107;&#x116e;&#x1109;&#x116e;&#x1100;&#x1169; &#x110b;&#x1175;&#x1103;&#x1169;&#x11bc;&#x1112;&#x1161;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "bfs()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F206D4C-2031-4373-BC15-8B1F2511D151"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "1987 &#x110b;&#x1161;&#x11af;&#x1111;&#x1161;&#x1107;&#x1166;&#x11ba;/1987 &#x110b;&#x1161;&#x11af;&#x1111;&#x1161;&#x1107;&#x1166;&#x11ba;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87CB8897-6840-4C6A-9E7B-4692FFEBC44C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "1987 &#x110b;&#x1161;&#x11af;&#x1111;&#x1161;&#x1107;&#x1166;&#x11ba;/1987 &#x110b;&#x1161;&#x11af;&#x1111;&#x1161;&#x1107;&#x1166;&#x11ba;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
