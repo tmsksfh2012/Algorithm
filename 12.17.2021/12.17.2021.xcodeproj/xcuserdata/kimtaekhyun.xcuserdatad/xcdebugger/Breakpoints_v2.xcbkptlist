@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E4378788-9A07-45C1-B12D-8894BE88869E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90A96F3D-025C-4B88-A2A6-E3969FE8D5F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3/9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C172C2B9-9C31-4BDB-B4AA-65CD66CAE089"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3/9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDBC8A06-5796-4C81-95C9-4B3AB00DBE7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3/9657 &#x1103;&#x1169;&#x11af; &#x1100;&#x1166;&#x110b;&#x1175;&#x11b7; 3.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
