@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b5259902-96de-43e4-bccf-43b327398f48": {
+      "ProjectGuid": "b5259902-96de-43e4-bccf-43b327398f48",
+      "DisplayName": "1475 방 번호",
+      "ColorIndex": 0
+    },
+    "a6754311-649e-49cd-9d11-106ec672be1c": {
+      "ProjectGuid": "a6754311-649e-49cd-9d11-106ec672be1c",
+      "DisplayName": "1476 날짜 계산",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
