@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cd1bb2ad-480a-4f9f-8336-67b195f2e7ec": {
+      "ProjectGuid": "cd1bb2ad-480a-4f9f-8336-67b195f2e7ec",
+      "DisplayName": "2960 에리토스테네스의 체",
+      "ColorIndex": 0
+    },
+    "a03b0d0e-4399-40a0-9511-97875ad4d1a3": {
+      "ProjectGuid": "a03b0d0e-4399-40a0-9511-97875ad4d1a3",
+      "DisplayName": "1292 쉽게 푸는 문제",
+      "ColorIndex": 1
+    },
+    "d8c57eda-2932-4c24-9f60-49feeb7242b6": {
+      "ProjectGuid": "d8c57eda-2932-4c24-9f60-49feeb7242b6",
+      "DisplayName": "1748 수 이어 쓰기 1",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
