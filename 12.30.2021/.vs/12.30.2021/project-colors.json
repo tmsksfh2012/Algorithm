@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "68045955-08cd-4156-bd25-f9930b3fe155": {
+      "ProjectGuid": "68045955-08cd-4156-bd25-f9930b3fe155",
+      "DisplayName": "2331 반복수열",
+      "ColorIndex": 0
+    },
+    "4117984b-dcc5-4b0a-99b6-a62ecf6f8295": {
+      "ProjectGuid": "4117984b-dcc5-4b0a-99b6-a62ecf6f8295",
+      "DisplayName": "11727 2xn 타일링 2",
+      "ColorIndex": 1
+    },
+    "fdfa73da-2d9d-4e2f-b936-a1c81680a044": {
+      "ProjectGuid": "fdfa73da-2d9d-4e2f-b936-a1c81680a044",
+      "DisplayName": "1904 01타일",
+      "ColorIndex": 2
+    },
+    "e8fb1088-c3c0-40ff-ada2-adcdd3d5f8e4": {
+      "ProjectGuid": "e8fb1088-c3c0-40ff-ada2-adcdd3d5f8e4",
+      "DisplayName": "17413 단어 뒤집기 2",
+      "ColorIndex": 3
+    },
+    "781a67fd-1648-4c80-b975-fc45a4cfa52e": {
+      "ProjectGuid": "781a67fd-1648-4c80-b975-fc45a4cfa52e",
+      "DisplayName": "9507 Generations of Tribbles",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
