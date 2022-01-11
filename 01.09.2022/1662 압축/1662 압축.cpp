@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-string str{};
+bool visit[51]{};
 
 void __init() {
 	cin.tie(0);
@@ -11,56 +11,33 @@ void __init() {
 	ios::sync_with_stdio(0);
 }
 
+int dfs(string& s, int idx) {
+	int cnt = 0;
+	for (int i = idx; i < s.size(); i++) {
+		if (s[i] == '(' && !visit[i]) {
+			visit[i] = true;
+			int num = s[i - 1] - '0';
+			cnt--;
+			cnt += num * dfs(s, i + 1);
+		}
+		else if (s[i] == ')' && !visit[i]) {
+			visit[i] = true;
+			return cnt;
+		}
+		else if (!visit[i]) {
+			visit[i] = true;
+			cnt++;
+		}
+	}
+	return cnt;
+}
+
 int main() {
 	__init();
 
-	stack<string> num{};
-	stack<char> bracket{};
+	string str{};
 
 	cin >> str;
 
-	for (int i = str.size() - 1; i >= 0; i--) {
-		// 괄호 넣는 부분
-		if (str[i] == ')') {
-			bracket.push(str[i]);
-		}
-		else if (str[i] == '(') {
-			bracket.push(str[i]);
-		}
-		// 숫자 넣는 부분
-		else {
-			string tmp{};
-
-			if (bracket.empty()) {
-				tmp.push_back(str[i]);
-				while (!num.empty()) {
-					tmp += num.top();
-					num.pop();
-				}
-				num.push(tmp);
-			}
-
-			else if (bracket.top() == ')') {
-				tmp.push_back(str[i]);
-				num.push(tmp);
-			}
-
-			// 숫자 반복 부분
-			else if (bracket.top() == '(') {
-				bracket.pop();
-				bracket.pop();
-				int cnt = str[i] - '0';
-				while (!num.empty()) {
-					tmp += num.top();
-					num.pop();
-				}
-				for (int i{}; i < cnt; i++) {
-					num.push(tmp);
-				}
-			}
-		}
-	}
-	string ans = num.top();
-	num.pop();
-	cout << ans.size();
+	cout << dfs(str, 0);
 }
