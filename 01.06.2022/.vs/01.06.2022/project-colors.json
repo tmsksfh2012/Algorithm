@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9706f7a4-4ce1-4553-a547-e4b8be28b866": {
+      "ProjectGuid": "9706f7a4-4ce1-4553-a547-e4b8be28b866",
+      "DisplayName": "4779 칸토어 집합",
+      "ColorIndex": 0
+    },
+    "eb4f2c6a-cf35-454b-9d09-1613198c7b65": {
+      "ProjectGuid": "eb4f2c6a-cf35-454b-9d09-1613198c7b65",
+      "DisplayName": "5568 카드 놓기",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

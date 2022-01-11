@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8f6f762-24f1-4768-be8b-aba8b65da176": {
+      "ProjectGuid": "c8f6f762-24f1-4768-be8b-aba8b65da176",
+      "DisplayName": "2156 포도주 시식",
+      "ColorIndex": 0
+    },
+    "3d57cb51-2920-4ed6-8954-6bc1360e904f": {
+      "ProjectGuid": "3d57cb51-2920-4ed6-8954-6bc1360e904f",
+      "DisplayName": "12865 평범한 배낭",
+      "ColorIndex": 1
+    },
+    "b83f3f28-1fc9-45aa-b37a-4ffa49e67e53": {
+      "ProjectGuid": "b83f3f28-1fc9-45aa-b37a-4ffa49e67e53",
+      "DisplayName": "9372 상근이의 여행",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
