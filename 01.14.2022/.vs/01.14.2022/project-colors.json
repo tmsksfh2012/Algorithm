@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "90bea1ba-9628-4df3-b9f1-e1e1c411aea1": {
+      "ProjectGuid": "90bea1ba-9628-4df3-b9f1-e1e1c411aea1",
+      "DisplayName": "2670 연속부분최대곱",
+      "ColorIndex": 0
+    },
+    "f3fa948f-6deb-43a9-b01a-fff4b8685bc8": {
+      "ProjectGuid": "f3fa948f-6deb-43a9-b01a-fff4b8685bc8",
+      "DisplayName": "2407 조합",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
