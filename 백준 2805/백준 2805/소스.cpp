@@ -12,12 +12,12 @@ long long tree[MAX];
 bool possible(long long height) {
 	long long len = 0;
 
-	//³ª¹«¸¦ Àß¶óº»´Ù
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¶óº»´ï¿½
 	for (int i = 0; i < N; i++)
 		if (tree[i] - height > 0)
 			len += tree[i] - height;
 
-	//Á¶°Ç ÃæÁ·
+	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	if (len >= M)
 		return true;
 
