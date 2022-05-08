@@ -20,17 +20,16 @@ int L{};
 // 뱀의 방향 변환 정보 q_L
 queue<pair<int, char>> q_L{};
 // 뱀의 현시점 헤드 방향 DIR_H
-// 뱀의 현시점 테일 방향 DIR_T
 // 0 - 오른쪽 1 - 아래 2 - 왼쪽 3 - 위
-int DIR_H{}, DIR_T{};
+int DIR_H{};
 // 시간 카운트 SUM_SEC
 int SUM_SEC{};
-// 헤드 위치와 꼬리 위치 HEAD, TAIL
-pair<int, int> HEAD{}, pair<int, int> TAIL{};
+// 뱀의 정보
+deque<pair<int, int>> snake{};
 
 int main() {
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-	DIR_H = 0; DIR_T = 0;
+	DIR_H = 0; snake.push_back({ 1,1 });
 
 	cin >> N >> K;
 
@@ -49,7 +48,7 @@ int main() {
 		cin >> sec >> dir;
 		q_L.push({ sec, dir });
 	}
-
+	// 빙향 지시가 있는 경우
 	while (!q_L.empty()) {
 		pair<int, char> tmp_L = q_L.front();
 		q_L.pop();
@@ -57,64 +56,124 @@ int main() {
 		int sec = tmp_L.first;
 		char dir = tmp_L.second;
 
+		// 다음 방향 지시가 있기 전까지 기존 방향으로 진행한다.
 		while (SUM_SEC < sec) {
 			SUM_SEC++;
+			int row = snake.front().first, col = snake.front().second;
 
 			switch (DIR_H) {
+			// 오른쪽
 			case 0:
-				int row = HEAD.first, col = HEAD.second++;
-				HEAD = { row, col };
+				col++;
 				break;
+			// 아래
 			case 1:
-				int row = HEAD.first++, col = HEAD.second;
-				HEAD = { row, col };
+				row++;
 				break;
+			// 왼쪽
 			case 2:
-				int row = HEAD.first, col = HEAD.second--;
-				HEAD = { row, col };
+				col--;
 				break;
+			// 위
 			case 3:
-				int row = HEAD.first--, col = HEAD.second;
-				HEAD = { row, col };
+				row--;
 				break;
 			}
-			// 보드 벽에 부딪혔을 때
-			if (HEAD.first > N || HEAD.second > N || HEAD.first < 0 || HEAD.second < 0) {
+
+			// 에러 처리 부분
+			// 벽에 부딪치는 경우
+			if (row > N || col > N || row < 1 || col < 1) {
 				cout << SUM_SEC;
-				return;
+				return 0;
 			}
-			// 뱀이 자기 몸통에 부짗혔을 때
-			else if (board[HEAD.first][HEAD.second] == 2) {
-				cout << SUM_SEC;
-				return;
-			}
-			// 뱀이 사과를 못먹었을 때
-			else if (board[HEAD.first][HEAD.second] == 0) {
-				// 꼬리를 이동시켜준다
-				switch (DIR_T) {
-				case 0:
-					int row = TAIL.first, col = TAIL.second++;
-					TAIL = { row, col };
-					break;
-				case 1:
-					int row = TAIL.first++, col = TAIL.second;
-					TAIL = { row, col };
-					break;
-				case 2:
-					int row = TAIL.first, col = TAIL.second--;
-					TAIL = { row, col };
-					break;
-				case 3:
-					int row = TAIL.first--, col = TAIL.second;
-					TAIL = { row, col };
-					break;
+			// 자기 몸에 부딪치는 경우
+			else {
+				for (auto dir : snake) {
+					if (dir.first == row && dir.second == col) {
+						cout << SUM_SEC;
+						return 0;
+					}
 				}
-				// 꼬리가 벽에 닿으면 방향을 
+			}
+
+			// 뱀이 사과를 못먹었을 때
+			if (board[row][col] == 0) {
+				// 꼬리를 이동시켜준다
+				snake.pop_back();
 			}
 			// 뱀이 사과를 먹었을 때
-			else if (board[HEAD.first][HEAD.second] == 1) {
+			else if (board[row][col] == 1)
+				// 꼬리는 그대로, 사과는 제거
+				board[row][col] = 0;
 
+			snake.push_front({ row,col });
+		}
+		// 진행을 마치고 방향 지시를 받는다.
+		switch (dir) {
+		// 오른쪽으로 방향 전환
+		case('D'):
+			DIR_H++;
+			break;
+		// 왼쪽으로 방향 전환
+		case('L'):
+			DIR_H--;
+			break;
+		}
+		if (DIR_H == 4)
+			DIR_H = 0;
+		else if (DIR_H == -1)
+			DIR_H = 3;
+	}
+	// 방향 지시가 없는 경우
+	// 기존 방향으로 계속해서 진행한다.
+	while (1) {
+		SUM_SEC++;
+		int row = snake.front().first, col = snake.front().second;
+		switch (DIR_H) {
+			// 오른쪽
+		case 0:
+			col++;
+			break;
+			// 아래
+		case 1:
+			row++;
+			break;
+			// 왼쪽
+		case 2:
+			col--;
+			break;
+			// 위
+		case 3:
+			row--;
+			break;
+		}
+
+		// 에러 처리 부분
+		// 벽에 부딪치는 경우
+		if (row > N || col > N || row < 1 || col < 1) {
+			cout << SUM_SEC;
+			return 0;
+		}
+		// 자기 몸에 부딪치는 경우
+		else {
+			for (auto dir : snake) {
+				if (dir.first == row && dir.second == col) {
+					cout << SUM_SEC;
+					return 0;
+				}
 			}
 		}
+
+		// 뱀이 사과를 못먹었을 때
+		if (board[row][col] == 0) {
+			// 꼬리를 이동시켜준다
+			snake.pop_back();
+		}
+		// 뱀이 사과를 먹었을 때
+		else if (board[row][col] == 1)
+			// 꼬리는 그대로, 사과는 제거
+			board[row][col] = 0;
+
+		snake.push_front({ row,col });
 	}
 }
